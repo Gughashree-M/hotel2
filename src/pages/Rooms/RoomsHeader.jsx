@@ -6,7 +6,7 @@ const RoomsHeader = () => {
     // Hero Banner with Title
     <div className="relative h-64 flex items-center justify-center overflow-hidden mb-12">
       <Image
-        src="/images/rooms-hero-bg.jpg" // Placeholder for the background image
+        src="/palash.webp" // Placeholder for the background image
         alt="Hotel Room Background"
         layout="fill"
         objectFit="cover"

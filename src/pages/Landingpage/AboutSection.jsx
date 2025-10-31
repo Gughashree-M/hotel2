@@ -27,7 +27,7 @@ const AboutSection = () => {
         <div className="w-full lg:w-2/5 mt-8 lg:mt-0 relative aspect-video lg:aspect-square">
           {/* Using aspect ratio classes for responsive image sizing */}
           <Image
-            src="/room1.jpg" // Placeholder for the second image
+            src="/out.jpg" // Placeholder for the second image
             alt="Modern Hotel Bedroom"
             layout="fill"
             objectFit="cover"

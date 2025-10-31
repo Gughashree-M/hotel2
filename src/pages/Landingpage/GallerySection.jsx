@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 // Placeholder data for the images
 const galleryImages = [
-  { id: 1, src: '/ayodhya.webp', alt: 'Bright yellow hotel room' },
-  { id: 2, src: '/baranti.webp', alt: 'Modern luxury bedroom' },
-  { id: 3, src: '/mithonDam.webp', alt: 'Dark and cozy lounge area' },
-  { id: 4, src: '/ayodhya.webp', alt: 'Scenic outdoor view' }, // Added a fourth image for scrolling demonstration
+  { id: 1, src: '/recep.jpg', alt: 'Bright yellow hotel room' },
+  { id: 2, src: '/room1.jpg', alt: 'Modern luxury bedroom' },
+  { id: 3, src: '/service.jpg', alt: 'Dark and cozy lounge area' },
+  { id: 4, src: '/small.jpg', alt: 'Scenic outdoor view' }, // Added a fourth image for scrolling demonstration
 ];
 
 const GallerySection = () => {

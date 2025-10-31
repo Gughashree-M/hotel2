@@ -8,7 +8,7 @@ const roomsData = [
     name: 'Standard Double Room',
     price: '100,000 per night',
     features: ['1 bathroom', '2 beds', '2 people'],
-    imageSrc: '/images/room-standard-double.jpg', // Placeholder
+    imageSrc: '/large.jpg', // Placeholder
     imageAlt: 'Standard Double Room',
   },
   {
@@ -16,7 +16,7 @@ const roomsData = [
     name: 'Classic Standard Room',
     price: '50,000 per night',
     features: ['1 bathroom', '2 beds', '2 people'],
-    imageSrc: '/images/room-classic-standard.jpg', // Placeholder
+    imageSrc: '/balcony.jpg', // Placeholder
     imageAlt: 'Classic Standard Room',
   },
   {
@@ -24,7 +24,7 @@ const roomsData = [
     name: 'Classic Double Room',
     price: '150,000 per night',
     features: ['1 bathroom', '2 beds', '2 people'],
-    imageSrc: '/images/room-classic-double.jpg', // Placeholder
+    imageSrc: '/doublebedroom.jpg', // Placeholder
     imageAlt: 'Classic Double Room',
   },
   {
@@ -32,7 +32,7 @@ const roomsData = [
     name: 'Deluxe Suite with balcony view',
     price: '50,000 per night',
     features: ['1 bathroom', '2 beds', '2 people'],
-    imageSrc: '/images/room-deluxe-suite.jpg', // Placeholder
+    imageSrc: '/2bedtroom.jpg', // Placeholder
     imageAlt: 'Deluxe Suite',
   },
   {
