@@ -21,7 +21,7 @@ const upcomingEvents = [
     date: 'September 5, 2026',
     time: '3:00 PM - 5:00 PM',
     description: 'Learn the secrets of Mediterranean cuisine directly from our Head Chef. Hands-on cooking and tasting session.',
-    imageUrl: '/images/event_culinary.jpg', // Placeholder image path
+    imageUrl: '/event_culinary.jpg', // Placeholder image path
     price: '€75 per person',
   },
   {
@@ -30,7 +30,7 @@ const upcomingEvents = [
     date: 'October 10, 2026',
     time: '6:30 PM - 8:00 PM',
     description: 'An exclusive tasting journey featuring local vineyards and our sommelier\'s top selections, perfectly paired with canapés.',
-    imageUrl: '/images/event_wine.jpg', // Placeholder image path
+    imageUrl: '/event_wine.jpg', // Placeholder image path
     price: '€50 per person',
   },
 ];

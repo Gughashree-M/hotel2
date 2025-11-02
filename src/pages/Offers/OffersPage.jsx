@@ -12,7 +12,7 @@ const hotelOffers = [
     tag: 'Popular',
     description: 'Book a minimum of two nights and get 15% off your entire stay, plus complimentary late checkout (2 PM).',
     details: 'Valid for Friday to Sunday stays. Requires 7-day advance booking.',
-    imageUrl: '/images/offer_weekend.jpg', // Placeholder image path
+    imageUrl: '/offer_weekend.jpg', // Placeholder image path
     buttonText: 'View Details',
   },
   {
@@ -21,7 +21,7 @@ const hotelOffers = [
     tag: 'New',
     description: 'Includes a one-night stay in a Deluxe room and a three-course dinner for two at our signature restaurant.',
     details: 'Excludes premium drinks. Available Sunday through Thursday.',
-    imageUrl: '/images/offer_dine.jpg', // Placeholder image path
+    imageUrl: '/offer_dine.jpg', // Placeholder image path
     buttonText: 'Book Now',
   },
   {
@@ -30,7 +30,7 @@ const hotelOffers = [
     tag: 'Limited Time',
     description: 'Save 25% when you stay 4 nights or more. Perfect for a longer vacation or business trip.',
     details: 'Non-refundable booking required. Subject to availability.',
-    imageUrl: '/images/offer_longstay.jpg', // Placeholder image path
+    imageUrl: '/offer_longstay.jpg', // Placeholder image path
     buttonText: 'Check Availability',
   },
   {
@@ -39,7 +39,7 @@ const hotelOffers = [
     tag: 'Family',
     description: 'Enjoy a connecting room setup and complimentary breakfast for two children under 12.',
     details: 'Must book a room and a connecting room. Access to kids club included.',
-    imageUrl: '/images/offer_family.jpg', // Placeholder image path
+    imageUrl: '/offer_family.jpg', // Placeholder image path
     buttonText: 'Learn More',
   },
 ];
