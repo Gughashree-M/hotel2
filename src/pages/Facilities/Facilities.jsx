@@ -3,12 +3,12 @@
 import Image from 'next/image';
 
 const facilitiesData = [
-  { name: 'Swimming Pool', imageUrl: '/images/swimming_pool.jpg' }, // Replace with actual image paths
-  { name: 'Gym', imageUrl: '/images/gym.jpg' },
-  { name: 'Restaurants & Bar', imageUrl: '/images/restaurant_bar.jpg' },
-  { name: 'Spa & Jacuzzi', imageUrl: '/images/spa_jacuzzi.jpg' },
-  { name: 'Conference Room', imageUrl: '/images/conference_room.jpg' },
-  { name: 'Parking Garage', imageUrl: '/images/parking_garage.jpg' },
+  { name: 'Swimming Pool', imageUrl: '/swimming_pool.jpg' }, // Replace with actual image paths
+  { name: 'Gym', imageUrl: '/gym.jpg' },
+  { name: 'Restaurants & Bar', imageUrl: '/restaurant_bar.jpg' },
+  { name: 'Spa & Jacuzzi', imageUrl: '/spa_jacuzzi.jpg' },
+  { name: 'Conference Room', imageUrl: '/conference_room.jpg' },
+  { name: 'Parking Garage', imageUrl: '/parking_garage.jpg' },
 ];
 
 const alsoOfferData = [
