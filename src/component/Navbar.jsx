@@ -31,7 +31,7 @@ const Navbar = () => {
           {/* Logo / Brand Name (Left Side) */}
           <div className="flex-shrink-0">
             <a href="#" className="text-2xl font-bold tracking-tight text-purple-700 hover:text-purple-900 transition duration-150 ease-in-out">
-              Hotel Lunar
+              Kingsukh Guest House
             </a>
           </div>
 
