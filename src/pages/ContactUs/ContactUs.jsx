@@ -72,19 +72,21 @@ const ContactUs = () => {
           {/* Phone */}
           <div className="flex items-center space-x-3">
             <FaPhone className="text-purple-600 text-xl" />
-            <span className="text-gray-700 font-medium">+3349856136648</span>
+            <span className="text-gray-700 font-medium">9007062180</span>
           </div>
 
           {/* Email */}
           <div className="flex items-center space-x-3">
             <FaEnvelope className="text-purple-600 text-xl" />
-            <span className="text-gray-700 font-medium">chrosantimibalafa@gmail.com</span>
+            <span className="text-gray-700 font-medium">kkghosh0099@gmail.com</span>
           </div>
 
           {/* Address */}
           <div className="flex items-center space-x-3">
             <FaMapMarkerAlt className="text-purple-600 text-xl" />
-            <span className="text-gray-700 font-medium">Road 12, Paphos #cyprus_ADb_JhH</span>
+            <span className="text-gray-700 font-medium">Beside Barshal WaterTank,
+              Manpur, Barhanti,
+              West Bengal 723156</span>
           </div>
         </div>
       </div>

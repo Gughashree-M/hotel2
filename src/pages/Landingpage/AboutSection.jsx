@@ -8,7 +8,7 @@ const AboutSection = () => {
   return (
     <section className="py-16 px-4 sm:px-8 lg:px-16 max-w-7xl mx-auto">
       <h2 className="text-3xl font-bold mb-10 text-gray-800">
-        About <span className="text-purple-700">Hotel Lunar</span>
+        About <span className="text-purple-700">Kingsukh Guest House</span>
       </h2>
 
       {/* Flex container that switches to a column on small screens */}
@@ -16,8 +16,11 @@ const AboutSection = () => {
         {/* Text Column (Takes full width on mobile, 60% on desktop) */}
         <div className="lg:w-3/5 space-y-4 text-gray-600 leading-relaxed">
           <p>{dummyText}</p>
-          <p className="hidden md:block">{dummyText}</p> {/* Hiding one paragraph on mobile for brevity */}
-          
+          <p className="hidden md:block">Embark on a tranquil journey at our Kingsukh Guest House, enveloped by the scenic allure of Biharinath Hill, Baranti Hill, Susunia Hill, Joychandi Hill, Garhpanchkot, Baranti Dam, Maithon Dam, and the captivating Panchat Dam. Revel in the embrace of comfort, relish delightful meals, and unwind in our verdant garden oasis. Your ideal retreat beckons, promising a harmonious blend of nature's beauty and heartfelt hospitality. Explore the hidden gems of Purulia, creating memories that linger long after your stay.
+
+            <span className="block text-blue-800 font-bold">Address: Beside Barshal Water Tank, Manpur, Barhanti, West Bengal 723156
+              <span className='block'>Contact us: +91 9007062180</span></span> </p> {/* Hiding one paragraph on mobile for brevity */}
+
           <button className="mt-4 bg-purple-700 hover:bg-purple-800 text-white font-medium py-2 px-6 rounded transition duration-300 text-sm">
             Read More
           </button>
@@ -35,7 +38,7 @@ const AboutSection = () => {
           />
         </div>
       </div>
-        
+
     </section>
   );
 };
