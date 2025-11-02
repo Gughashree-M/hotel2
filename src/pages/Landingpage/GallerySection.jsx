@@ -59,11 +59,9 @@ const GallerySection = () => {
                 if (el) itemRefs.current[image.id] = el
               }}
               id={`gallery-item-${image.id}`}
-              className={`group relative overflow-hidden rounded-2xl shadow-lg transition-all duration-500 transform ${
-                visibleItems.has(`gallery-item-${image.id}`) ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-              } ${index % 2 === 0 && index !== 0 ? "md:col-span-1" : ""} ${
-                hoveredId === image.id ? "shadow-2xl scale-105" : ""
-              }`}
+              className={`group relative overflow-hidden rounded-2xl shadow-lg transition-all duration-500 transform ${visibleItems.has(`gallery-item-${image.id}`) ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+                } ${index % 2 === 0 && index !== 0 ? "md:col-span-1" : ""} ${hoveredId === image.id ? "shadow-2xl scale-105" : ""
+                }`}
               style={{
                 transitionDelay: `${index * 100}ms`,
               }}
@@ -84,17 +82,15 @@ const GallerySection = () => {
 
               {/* Gradient Overlay */}
               <div
-                className={`absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent transition-opacity duration-300 ${
-                  hoveredId === image.id ? "opacity-80" : "opacity-40"
-                }`}
+                className={`absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent transition-opacity duration-300 ${hoveredId === image.id ? "opacity-80" : "opacity-40"
+                  }`}
               ></div>
 
               {/* Content Overlay */}
               <div className="absolute inset-0 flex flex-col justify-end p-6">
                 <div
-                  className={`transform transition-all duration-300 ${
-                    hoveredId === image.id ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
-                  }`}
+                  className={`transform transition-all duration-300 ${hoveredId === image.id ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
+                    }`}
                 >
                   <p className="text-purple-300 text-sm font-semibold mb-2 uppercase tracking-wide">{image.category}</p>
                   <h3 className="text-white text-xl font-bold mb-2">{image.alt}</h3>
@@ -103,9 +99,8 @@ const GallerySection = () => {
 
                 {/* Hover Button */}
                 <div
-                  className={`mt-4 transform transition-all duration-300 ${
-                    hoveredId === image.id ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
-                  }`}
+                  className={`mt-4 transform transition-all duration-300 ${hoveredId === image.id ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
+                    }`}
                 >
                   <button className="w-full bg-purple-600 hover:bg-purple-700 text-white py-2 px-4 rounded-lg transition duration-200 text-sm font-semibold">
                     View Details
@@ -115,9 +110,8 @@ const GallerySection = () => {
 
               {/* Shine Effect */}
               <div
-                className={`absolute top-0 left-0 w-full h-full bg-gradient-to-r from-white/20 via-white/10 to-transparent transform -skew-x-12 transition-all duration-500 ${
-                  hoveredId === image.id ? "translate-x-full" : "-translate-x-full"
-                }`}
+                className={`absolute top-0 left-0 w-full h-full bg-gradient-to-r from-white/20 via-white/10 to-transparent transform -skew-x-12 transition-all duration-500 ${hoveredId === image.id ? "translate-x-full" : "-translate-x-full"
+                  }`}
               ></div>
             </div>
           ))}
@@ -126,9 +120,11 @@ const GallerySection = () => {
 
       {/* Call to Action */}
       <div className="text-center mt-16">
-        <button className="bg-gradient-to-r from-purple-700 to-indigo-600 hover:from-purple-800 hover:to-indigo-700 text-white font-bold py-3 px-10 rounded-full shadow-lg transition duration-300 transform hover:scale-105 uppercase tracking-wider">
-          Explore More
-        </button>
+        <a href="/rooms">
+          <button className="bg-gradient-to-r from-purple-700 to-indigo-600 hover:from-purple-800 hover:to-indigo-700 text-white font-bold py-3 px-10 rounded-full shadow-lg transition duration-300 transform hover:scale-105 uppercase tracking-wider">
+            Explore More
+          </button>
+        </a>
       </div>
     </section>
   )
