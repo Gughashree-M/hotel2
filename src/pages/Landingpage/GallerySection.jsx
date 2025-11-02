@@ -55,9 +55,10 @@ const GallerySection = () => {
                   quality={85}
                 />
                 {/* Optional: Text Overlay on Image */}
-                <div className="absolute inset-0 bg-black bg-opacity-30 flex items-end p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <p className="text-white text-sm font-semibold">{image.alt}</p>
+                <div className="absolute inset-0 bg-black bg-opacity-50 flex items-end p-4 opacity-0 group-hover:opacity-70 transition-opacity duration-300">
+                  <p className="text-white text-sm font-bold">{image.alt}</p>
                 </div>
+
               </div>
             </div>
           ))}
