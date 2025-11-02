@@ -40,7 +40,7 @@ const roomsData = [
     name: 'Family suite with balcony view',
     price: '150,000 per night',
     features: ['1 bathroom', '2 beds', '2 people'],
-    imageSrc: '/images/room-family-suite.jpg', // Placeholder
+    imageSrc: '/room-family-suite.jpg', // Placeholder
     imageAlt: 'Family suite',
   },
   {
@@ -48,7 +48,7 @@ const roomsData = [
     name: 'Penthouse suite with balcony view',
     price: '50,000 per night',
     features: ['1 bathroom', '2 beds', '2 people'],
-    imageSrc: '/images/room-penthouse.jpg', // Placeholder
+    imageSrc: '/room-penthouse.jpg', // Placeholder
     imageAlt: 'Penthouse suite',
   },
 ];
