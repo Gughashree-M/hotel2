@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const HeroSection = () => {
   return (
-    <div className="relative h-screen sm:h-[80vh] overflow-hidden">
+    <div data-aos="zoom-in" className="relative h-screen sm:h-[80vh] overflow-hidden">
       {/* Background Image - Adjust path and dimensions */}
       <div className="absolute inset-0">
         {/* Replace with your actual image path (e.g., from /public) */}

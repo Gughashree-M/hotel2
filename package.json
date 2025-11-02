@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "lucide-react": "^0.546.0",
     "next": "15.5.5",
     "react": "19.1.0",
