@@ -36,10 +36,10 @@ const Footer = () => {
           {/* 2. Quick Links Column (Visible on all screen sizes) */}
           <div className="space-y-3 pt-6 md:pt-0">
             <h4 className="text-lg font-semibold mb-4 opacity-0 hidden lg:block">_</h4> {/* Placeholder for alignment */}
-            <FooterLink href="/about">ABOUT US</FooterLink>
-            <FooterLink href="/contact">CONTACT US</FooterLink>
+            <FooterLink href="/offers">OFFERS</FooterLink>
+            <FooterLink href="/contactus">CONTACT US</FooterLink>
             <FooterLink href="/rooms">ROOMS & RATES</FooterLink>
-            <FooterLink href="/facilities">FACILITIES</FooterLink>
+            <FooterLink href="/Facilities">FACILITIES</FooterLink>
           </div>
 
           {/* 3. Social Media Column (Pushed to the right on desktop) */}
