@@ -90,7 +90,25 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
+
+      <div className="mt-12 px-4 sm:px-6 lg:px-8 max-w-3xl mx-auto">
+        <h2 className="text-2xl font-semibold text-center text-gray-800 mb-6">
+          Find Us on Google Maps
+        </h2>
+
+        <div className="relative w-full" style={{ paddingBottom: '45%' }}>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6951.16217277079!2d86.85979!3d23.586332!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6e3fdd3ff9ebb%3A0x517a57e3f93c1807!2sKingsukh%20Guest%20House!5e1!3m2!1sen!2sin!4v1762088367695!5m2!1sen!2sin"
+            className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg border-0"
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+
     </div>
+
   );
 };
 

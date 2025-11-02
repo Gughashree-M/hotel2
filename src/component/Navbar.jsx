@@ -7,9 +7,9 @@ const navItems = [
   { name: 'Home', href: '/' },
   { name: 'Rooms & Suites', href: '/rooms' },
   { name: 'Facilities', href: '/Facilities' },
-  { name: 'Contacts', href: '/contactus' },
   { name: 'Offers', href: '/offers' },
   { name: 'Events', href: '/event' },
+  { name: 'Contacts', href: '/contactus' }
 ];
 
 /**
