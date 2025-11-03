@@ -8,7 +8,7 @@ const ContactUs = () => {
   return (
     <div className="min-h-screen bg-gray-50 pb-16">
       {/* Header Section */}
-      <div className="relative h-64 md:h-96 bg-cover bg-center" style={{ backgroundImage: 'url("/images/contact_header.jpg")' }}>
+      <div className="relative h-64 md:h-96 bg-cover bg-center" style={{ backgroundImage: 'url("/facilities.jpg")' }}>
         {/* Replace with your actual header image path */}
         {/* Overlay to darken image and make text pop */}
         <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center">
